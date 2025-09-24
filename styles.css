@@ -115,3 +115,25 @@ footer {
     text-decoration: none;
     margin: 0 10px;
 }
+/* Estilo para los productos vendidos */
+.sold-out {
+    opacity: 0.6; /* Hace que la tarjeta se vea un poco más transparente */
+    border: 2px solid #ccc; /* Agrega un borde gris */
+    position: relative;
+}
+
+.sold-out .contact-btn {
+    display: none; /* Oculta el botón de "Me interesa" */
+}
+
+.sold-out-tag {
+    background-color: #c0392b; /* Un color rojo para la etiqueta */
+    color: #fff;
+    font-weight: bold;
+    padding: 8px;
+    position: absolute; /* Coloca la etiqueta sobre la tarjeta */
+    top: 10px;
+    right: 10px;
+    border-radius: 5px;
+    font-size: 0.8em;
+}
